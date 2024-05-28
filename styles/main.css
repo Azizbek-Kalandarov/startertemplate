@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: serif; */
+  /* font-weight: 400; */
+  /* font-size: 16px; */
+  /* line-height: normal; */
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  /* width: 1240px; */
+  margin-inline: auto;
+  /* padding-inline: 20px; */
+}
+
+.list-unstyled {
+  margin-block: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
